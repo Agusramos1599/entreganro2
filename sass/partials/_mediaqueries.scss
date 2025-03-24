@@ -1,0 +1,77 @@
+@import url("https://use.typekit.net/smm4zeg.css");
+
+@media screen and (max-width: 601px){
+    .main-content h2{
+        top: 700px;
+        font-size: 30px;
+     }
+     .main-back{
+      .grid-content{
+         grid-template-columns: 1fr;
+         grid-template-rows: 1fr 1fr 1fr 1fr;
+         grid-template-areas: 
+         "bohemio"
+         "texto1"
+         "moro"
+         "texto2";
+ 
+         .img-bohemio{
+          grid-area: bohemio;
+        }
+        .img-moro{
+          grid-area: moro;
+        }
+        .texto1{
+          grid-area: texto1;
+          font-size: 25px;
+        }
+        .texto2{
+          grid-area: texto2;
+          font-size: 25px;
+       }
+      }
+      }
+     .div-footer{
+        display: grid;
+        grid-template-columns: 1fr;
+     }
+     .div-footer h3{
+        margin-left: 245px;
+     }
+     .div-footer img{
+        margin-left: 300px;
+     }
+    .main-services{
+        display: grid;
+        height: 100%;
+        margin: 3rem 0 3rem 0 ;
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 33% 33% 33%;
+        gap: 1rem;
+        text-align: center;
+    }
+    .main-contact{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 25px;
+         text-align: center;
+         .contact-title{
+            width: 100vh;
+            margin-left: 2rem;
+            margin-right: 2rem;
+         }
+      .form-contact{
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 1fr;
+
+      }
+      
+    }
+   }
+
+
+
+  

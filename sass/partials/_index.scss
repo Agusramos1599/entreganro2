@@ -1,0 +1,85 @@
+@import url("https://use.typekit.net/smm4zeg.css");
+.font{
+    font-family: "gilbert", sans-serif;//"Source Sans 3", sans-serif;
+    font-size: 30px;
+    background-color: #140f07;
+    width: 100%;
+    .logo-header{
+        height: 110px;
+        width: 110%;
+        margin-left: 50%;
+        transition: 0.3s;
+    }
+    .logo-header:hover{
+        transform: scale(1.2);
+    }
+    .letter{
+        gap: 2rem;
+        a{
+         color: white;
+           
+        }
+        li:hover{
+         color: #f81212;
+         transform: scale(1.2)
+        }
+        li{
+            transition: 0.3s;
+        
+        }
+ }
+}
+.main-content{
+    background: #140f07;
+    .background{
+        width: 100%;
+        filter: brightness(35%);
+        height: 100%;
+    }
+    .logo-main{
+        width: 30%;
+        height: 30%;
+        filter: invert(2%) sepia(1%) saturate(7480%) hue-rotate(178deg) brightness(123%) contrast(96%);
+        margin-top: -70%;
+        margin-left: 67%;
+    }
+    h2:hover{
+        transform: scale(1.2);
+        color: #f81212;
+        cursor: pointer;
+    }
+    h2{
+        display: grid;
+        font-family: "gilbert-color", sans-serif;
+        font-size: 45px;
+        color: white;
+        text-transform: uppercase;
+        position: absolute;
+        margin-top: -45%;
+        margin-left: 5%;
+        grid-template-columns: 70px;
+        transition: 0.3s;
+    }
+}
+.div-footer{
+    height: 20vh;
+    font-family: "gilbert-color", sans-serif;
+    color: white;
+    background: #140f07;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    width: 100%;
+    a{
+        width: 5%; 
+      img{
+        width: 70%;
+        filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(299deg) brightness(102%) contrast(102%);
+        transition: 0.3s;
+      }
+      img:hover{
+        transform: scale(1.2);
+      }
+    }
+}

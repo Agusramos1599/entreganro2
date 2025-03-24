@@ -1,0 +1,21 @@
+@import url("https://use.typekit.net/smm4zeg.css");
+.main-contact{
+    .contact-title{
+        width: 50%;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        font-family: "gilbert", sans-serif;
+        color: #140f07;
+    }
+    .button{
+        background-color: #102448;
+        color: white;
+        transition: 0.3s;
+    }
+    .button:hover{
+        background-color: #08dcff;
+        color: white;
+        transform: scale(1.2);
+    }
+}

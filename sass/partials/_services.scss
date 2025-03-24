@@ -1,0 +1,17 @@
+@import url("https://use.typekit.net/smm4zeg.css");
+.main-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+    margin-left: 27rem;
+    gap: 20rem;
+    text-align: center;
+    font-family: "gilbert-color", sans-serif;
+    color: #140f07;
+    img{
+        width: 3rem;
+        height: 3rem;
+    }
+}

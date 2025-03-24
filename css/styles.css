@@ -1,283 +1,409 @@
+/*Codigo transcribido de Sass*/
 @import url("https://use.typekit.net/smm4zeg.css");
-/*font-family: "gilbert", sans-serif;*/
-/*font-family: "gilbert-color", sans-serif;*/
-/*.color1 {color: #140f07;}
-.color2 {color: #102448;}
-.color3 {color: #0959a6;}
-.color4 {color: #0794ff;}
-.color5 {color: #08dcff;}*/
-body{
-    margin: 0;
-    padding: 0;
+@import url("https://use.typekit.net/smm4zeg.css");
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://use.typekit.net/smm4zeg.css");
+@import url("https://use.typekit.net/smm4zeg.css");
+@import url("https://use.typekit.net/smm4zeg.css");
+@import url("https://use.typekit.net/smm4zeg.css");
+.font {
+  font-family: "gilbert", sans-serif;
+  font-size: 30px;
+  background-color: #140f07;
+  width: 100%;
 }
-.font{
-    font-family: "gilbert", sans-serif;
-    font-size: 30px;
-    background-color: #140f07;
-    width: 100%;
+.font .logo-header {
+  height: 110px;
+  width: 110%;
+  margin-left: 50%;
+  transition: 0.3s;
 }
-
-.logo-header{
-    height: 110px;
-    width: 110%;
-    margin-left: 50%;
-    transition: 0.3s;
+.font .logo-header:hover {
+  transform: scale(1.2);
 }
-.logo-header:hover{
-    transform: scale(1.2);
+.font .letter {
+  gap: 2rem;
 }
-.letter a{
-    color: white;
+.font .letter a {
+  color: white;
 }
-.letter a li:hover{
-    color: #08dcff;
-    transform: scale(1.2);
+.font .letter li:hover {
+  color: #f81212;
+  transform: scale(1.2);
 }
-.letter a li{
-    transition: 0.3s;
-}
-.main-content{
-    background: #140f07;
-}
-.main-content .background{
-    width: 100%;
-    filter: brightness(35%);
-    height: 100%;
-}
-.main-content .logo-main{
-    width: 30%;
-    height: 30%;
-    filter: invert(2%) sepia(1%) saturate(7480%) hue-rotate(178deg) brightness(123%) contrast(96%);
-    margin-top: -70%;
-    margin-left: 67%;
-}
-.main-content h2:hover{
-    transform: scale(1.2);
-    color: #08dcff;
-    cursor: pointer;
-}
-.main-content h2{
-    display: grid;
-    font-family: "gilbert-color", sans-serif;
-    font-size: 45px;
-    color: white;
-    text-transform: uppercase;
-    position: absolute;
-    margin-top: -45%;
-    margin-left: 5%;
-    grid-template-columns: 70px;
-    transition: 0.3s;
-}
-.div-footer{
-    height: 20vh;
-    font-family: "gilbert-color", sans-serif;
-    color: white;
-    background: #140f07;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5%;
-}
-.div-footer a{
-    width: 5%;
-}
-.div-footer a img{
-    width: 70%;
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(299deg) brightness(102%) contrast(102%);
-    transition: 0.3s;
-}
-.div-footer a img:hover{
-    transform: scale(1.2);
-}
- 
-
-/*ESTILOS DE ABOUT*/
-.body-about{
-    background: #102448;
-}
-.main-back{
-    background: #102448;
+.font .letter li {
+  transition: 0.3s;
 }
 
-.grid-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 300px 300px;
-    grid-template-areas: 
-    "bohemio texto1"
-    "texto2 moro";
-    gap: 1rem;
-    margin: 2rem;
-    border: 5px solid #b6b2b2;
-    background-color: #140f07;
-    text-align: center;
-    align-items: center;
+.main-content {
+  background: #140f07;
 }
-.img-bohemio{
-    grid-area: bohemio;
-    width: 100%;
-    height: 100%;
+.main-content .background {
+  width: 100%;
+  filter: brightness(35%);
+  height: 100%;
 }
-.img-moro{
-    grid-area: moro;
-    width: 100%;
-    height: 100%;
+.main-content .logo-main {
+  width: 30%;
+  height: 30%;
+  filter: invert(2%) sepia(1%) saturate(7480%) hue-rotate(178deg) brightness(123%) contrast(96%);
+  margin-top: -70%;
+  margin-left: 67%;
 }
-.texto1{
-    grid-area: texto1;
-    font-family: "gilbert", sans-serif;
-    color: white;
-    
+.main-content h2:hover {
+  transform: scale(1.2);
+  color: #f81212;
+  cursor: pointer;
 }
-.texto2{
-    grid-area: texto2;
-    font-family: "gilbert", sans-serif;
-    color: white;
-}
-/*ESTILOS DE CONTACTO*/
-.contact-title{
-    width: 50%;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    font-family: "gilbert", sans-serif;
-    color: #140f07;
-}
-.button{
-    background-color: #102448;
-    color: white;
-    transition: 0.3s;
-}
-.button:hover{
-    background-color: #08dcff;
-    color: white;
-    transform: scale(1.2);
-}
-/*ESTILOS DE MATERIAL*/
-.body-material{
-    background: #102448;
-}
-.main-gallery{
-    display: flex;
-    width: 50rem;
-    height: 40rem;
-    justify-content: center;
-    align-items: center;
-    margin-left: 20rem;
-
-}
-.grid-gallery{
-    display: grid;
-    width: 100%;
-    height: 100%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
-    grid-template-areas: 
-    "titulo titulo titulo titulo"
-    "foto1 foto2 foto2 foto4"
-    "foto5 foto6 foto7 foto8";
-    gap: 3%;
-    border: 1rem solid #b6b2b2;
-    background-color: #140f07;
-    
-}
-.grid-gallery img{
-    width: 100%;
-    height: 100%;
-    margin-bottom: 7rem;
-    padding: 0.5rem;
-}
-.titulo-h1{
-    grid-area: titulo;
-    text-align: center;
-    height: 4rem;
-    margin-top: 4rem;
-    font-family: "gilbert-color", sans-serif;
-    font-size: 60px;
-    color: white;
-}
-.foto1{
-    grid-area: foto1;
-}
-.foto2{
-    grid-area: foto2;
-}
-.foto4{
-    grid-area: foto4;
-}
-.foto5{
-    grid-area: foto5;
-}
-.foto6{
-    grid-area: foto6;
-}
-.foto7{
-    grid-area: foto7;
-}
-.foto8{
-    grid-area: foto8;
+.main-content h2 {
+  display: grid;
+  font-family: "gilbert-color", sans-serif;
+  font-size: 45px;
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: -45%;
+  margin-left: 5%;
+  grid-template-columns: 70px;
+  transition: 0.3s;
 }
 
-/*ESTILOS DE SERVICES*/
+.div-footer {
+  height: 20vh;
+  font-family: "gilbert-color", sans-serif;
+  color: white;
+  background: #140f07;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  width: 100%;
+}
+.div-footer a {
+  width: 5%;
+}
+.div-footer a img {
+  width: 70%;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(299deg) brightness(102%) contrast(102%);
+  transition: 0.3s;
+}
+.div-footer a img:hover {
+  transform: scale(1.2);
+}
 
-.main-services{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vh;
-    height: 100vh;
-    margin-left: 27rem;
-    gap: 20rem;
-    text-align: center;
-    font-family: "gilbert-color", sans-serif;
-    color: #140f07;
+/*CSS DE ABOUT*/
+.body-about {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
-.main-services img{
-    width: 3rem;
-    height: 3rem;
+.body-about .main-back {
+  background: black;
+  height: 100%;
+  width: 100%;
+  flex: 1;
 }
-/*RESPONSIVE DE INDEX*/
-@media screen and (max-width: 601px) 
-{ 
- .main-content h2{
+.body-about .main-back .video-container {
+  width: 100%;
+  height: 100%;
+}
+.body-about .main-back .video-container .video-fondo {
+  height: 100%;
+  width: 100%;
+  filter: brightness(35%);
+  object-fit: cover;
+}
+.body-about .main-back .titulo-about {
+  font-family: "gilbert", sans-serif;
+  font-size: 25px;
+  font-weight: 250;
+  font-style: normal;
+  color: white;
+  position: absolute;
+  top: 14rem;
+  left: 5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 75%;
+  width: 50%;
+  text-align: start;
+}
+.body-about .main-back .titulo-about h2 {
+  font-size: 6rem;
+  color: #f81212;
+  font-weight: 900;
+  margin-left: 2rem;
+}
+.body-about .main-back .titulo-about p {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.body-about .main-back .titulo-about .boton-coffee {
+  display: flex;
+  margin-left: 2rem;
+  border: solid 6px #f81212;
+  background-color: #f81212;
+  width: 20%;
+  height: 12%;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.body-about .main-back .titulo-about .boton-coffee a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+.body-about .main-back .titulo-about .boton-coffee a img {
+  width: 30%;
+}
+.body-about .main-back .titulo-about .boton-coffee a:hover {
+  transform: scale(1.1);
+}
+.body-about .main-back .grid-display {
+  display: grid;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  font-family: "gilbert", sans-serif;
+  color: white;
+  margin-right: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  grid-template-columns: 0.5fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-areas: "nosotros nosotros imagen" "logo1 texto1 imagen" "logo2 texto2 imagen";
+}
+.body-about .main-back .grid-display .nosotros, .body-about .main-back .grid-display .p-texto {
+  grid-area: nosotros;
+  margin-left: 3.5rem;
+}
+.body-about .main-back .grid-display .p-texto {
+  margin-top: 2rem;
+  color: #8a8a8a;
+}
+.body-about .main-back .grid-display .flex-img1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-about .main-back .grid-display .flex-img1 .logo1 {
+  grid-area: logo1;
+}
+.body-about .main-back .grid-display .h3-objetivo, .body-about .main-back .grid-display .p-objetivo {
+  grid-area: texto1;
+}
+.body-about .main-back .grid-display .img-main {
+  grid-area: imagen;
+  width: 85%;
+  height: 115%;
+}
+.body-about .main-back .grid-display .flex-img2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-about .main-back .grid-display .flex-img2 .logo2 {
+  grid-area: logo2;
+}
+.body-about .main-back .h3-lotus, .body-about .main-back .p-lotus {
+  grid-area: texto2;
+}
+.body-about .main-back .logo1, .body-about .main-back .logo2 {
+  width: 20%;
+  height: 65%;
+  filter: invert(11%) sepia(95%) saturate(7473%) hue-rotate(354deg) brightness(97%) contrast(110%);
+}
+.body-about .p-objetivo, .body-about .p-lotus {
+  margin-top: 2rem;
+  color: #8a8a8a;
+}
+
+/*CSS DE CONTACT*/
+.main-contact .contact-title {
+  width: 50%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-family: "gilbert", sans-serif;
+  color: #140f07;
+}
+.main-contact .button {
+  background-color: #102448;
+  color: white;
+  transition: 0.3s;
+}
+.main-contact .button:hover {
+  background-color: #08dcff;
+  color: white;
+  transform: scale(1.2);
+}
+
+/*CSS DE MATERIAL*/
+.body-material {
+  background: #102448;
+}
+
+.main-gallery {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /*.grid-gallery{
+      display: grid;
+      width: 100%;
+      height: 100%;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas: 
+      "titulo titulo titulo titulo"
+      "foto1 foto2 foto2 foto4"
+      "foto5 foto6 foto7 foto8";
+      gap: 3%;
+      border: 1rem solid #b6b2b2;
+      background-color: #140f07;
+      img{
+          width: 100%;
+          height: 100%;
+          margin-bottom: 7rem;
+          padding: 0.5rem;
+      }
+      .titulo-h1{
+          grid-area: titulo;
+          text-align: center;
+          height: 4rem;
+          margin-top: 4rem;
+          font-family: "gilbert-color", sans-serif;
+          font-size: 60px;
+          color: white;
+      }
+      .foto1{
+          grid-area: foto1;
+      }
+      .foto2{
+          grid-area: foto2;
+      }
+      .foto4{
+          grid-area: foto4;
+      }
+      .foto5{
+          grid-area: foto5;
+      }
+      .foto6{
+          grid-area: foto6;
+      }
+      .foto7{
+          grid-area: foto7;
+      }
+      .foto8{
+          grid-area: foto8;
+      }
+  }*/
+}
+.main-gallery .imagen-main {
+  height: 80%;
+  width: 100%;
+  margin-top: -7.5rem;
+}
+.main-gallery .imagen-main img {
+  width: 100%;
+  height: 100%;
+}
+.main-gallery .galeria-imagenes {
+  width: 300px;
+  height: 300px;
+}
+.main-gallery .galeria-imagenes .galeria-content {
+  display: flex;
+  width: 300px;
+  height: 300px;
+}
+
+/*CSS DE SERVICES*/
+.main-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+  height: 100vh;
+  margin-left: 27rem;
+  gap: 20rem;
+  text-align: center;
+  font-family: "gilbert-color", sans-serif;
+  color: #140f07;
+}
+.main-services img {
+  width: 3rem;
+  height: 3rem;
+}
+
+/*CSS DE MEDIAQUERIES*/
+@media screen and (max-width: 601px) {
+  .main-content h2 {
     top: 700px;
     font-size: 30px;
- }
- .div-footer{
-    display: grid;
-    grid-template-columns: 1fr;
- }
- .div-footer h3{
-    margin-left: 245px;
- }
- .div-footer img{
-    margin-left: 300px;
- }
- .grid-content{
+  }
+  .main-back .grid-content {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    "bohemio"
-    "texto1"
-    "moro"
-    "texto2";
- }
- .img-bohemio{
+    grid-template-areas: "bohemio" "texto1" "moro" "texto2";
+  }
+  .main-back .grid-content .img-bohemio {
     grid-area: bohemio;
- }
- .img-moro{
+  }
+  .main-back .grid-content .img-moro {
     grid-area: moro;
- }
- .texto1{
+  }
+  .main-back .grid-content .texto1 {
     grid-area: texto1;
     font-size: 25px;
- }
-.texto2{
+  }
+  .main-back .grid-content .texto2 {
     grid-area: texto2;
     font-size: 25px;
+  }
+  .div-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .div-footer h3 {
+    margin-left: 245px;
+  }
+  .div-footer img {
+    margin-left: 300px;
+  }
+  .main-services {
+    display: grid;
+    height: 100%;
+    margin: 3rem 0 3rem 0;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 33% 33% 33%;
+    gap: 1rem;
+    text-align: center;
+  }
+  .main-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+  }
+  .main-contact .contact-title {
+    width: 100vh;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .main-contact .form-contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
 }
-}
 
-
-
-
+/*# sourceMappingURL=styles.css.map */
